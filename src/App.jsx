@@ -15,7 +15,7 @@ const App = () => {
       <div className="min-h-screen bg-gray-50">
         <Routes>
           {/* Public Routes */}
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
  
           {/* Protected Routes */}

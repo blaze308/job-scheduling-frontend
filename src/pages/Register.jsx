@@ -36,7 +36,7 @@ const Register = () => {
 
       // Redirect to login page after a short delay
       setTimeout(() => {
-        navigate('/login'); // Redirect to login page
+        navigate('/'); // Redirect to login page
       }, 2000); // 2-second delay to show success message
     } catch (err) {
       setError(err.response?.data?.message || 'Failed to create user.');
